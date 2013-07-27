@@ -3,24 +3,17 @@
 <head> 
   <meta charset="utf-8" />
   <title>JS Bin</title>
-  <style type="text/css">
-      select ,option{
-        width: 80px;
-      }
-      input.time{
-        width: 60px;
-        background-color: #FFFFAA;
-        -webkit-box-shadow:1px 1px 1px black;
-      }
-  </style>
 </head>
 <body style="background-color:#FFE4E1">
     <p style="color:#660066;font-size:20px"> Sign Up for Free!</p>
     <form action="test.php" method="get">
-      First name: <input type="text" name="FN" placeholder="Enter your name"/> <br/><br/>
-      Last name: <input type="text" name="LN"  placeholder="Enter your family"/> <br><br>
-      E-mail: <input type="text" name="mail"   placeholder="Enter your email"/> <br/> <br/>
-      Password: <input type="password" name="PW"/><br/><br/>
+      <fieldset>
+        <legend>personalia:</legend> 
+        First name: <input type="text" name="FN" placeholder="Enter your name"/> <br/><br/>
+        Last name: <input type="text" name="LN"  placeholder="Enter your family"/> <br><br>
+        E-mail: <input type="text" name="mail"   placeholder="Enter your email"/> <br/> <br/>
+        Password: <input type="password" name="PW"/><br/><br/>
+      </fieldset>  
       Gender: <input type="radio" name="sex" value="Female" />Female
       <input type="radio" name="sex" value="male" >Male<br/><br/>
       Birthday:
@@ -50,6 +43,6 @@
        <input type="reset"/>
        <input type="hidden"  />
     </form>
-
+  
 </body>
 </html>
