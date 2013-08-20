@@ -1,0 +1,100 @@
+<!DOCTYPE >
+
+<html>
+
+<head>
+  <meta charset=""utf-8"" />
+  <title>JS Bin</title>
+  <style>
+    h1{
+     color:red;
+     text-align:center;
+     text-decoration:underline;
+     text-shadow:2px 2px #000000;
+     font-family: san-serif;
+     background-color: #FF9999;
+     width:500px;
+     border-style:ridge;
+     border-top: 3px  dotted   #FF0066;
+     margin-left:200px;
+     margin-top: 50px;
+
+
+    }
+    p.one{
+     color:blue;
+     text-align:justify;
+     text-indent:30px;
+     background-color: #99FFFF;
+     border-right-style:dotted;
+     border-left-style:dotted;
+     border-bottom-style: double;
+     border-top-style: double;
+     border-left-color: #CC0099;
+     border-right-color: #CC0099;
+    }
+   p.two{
+    color:green;
+    text-align: right;
+    text-decoration:line-through;
+    text-transform: capitalize;
+    font-family: "Times New Roman", serif, Times ;
+    font-size: 24px;
+    font-style: italic;
+    font-weight:bolder;
+    border-right:5px dotted  #66FF33;
+    border-left:5px dotted  #66FF33;
+    border-bottom: 2px groove  #006699;
+    border-top: 2px groove  #006699;
+
+
+   }
+   p.three{
+     white-space: nowrap;
+     color:#000066;
+     font-size: 2.5em;
+
+
+   }
+   p.four{
+     border-style: solid;
+     border-right-color: #33CC33;
+     border-left-color: #FF0099;
+     border-top-color: #660033;
+     border-bottom-color:#FFFF00;
+     border-right-width: 8px;
+     border-right-style: dotted;
+     width:200px;
+     height: 50px;
+
+   }
+   p.five{
+     border-style: solid;
+     border-color: #FF0066 #339900 #0000CC;
+     height:50px;
+     background-color: #66FF99;
+     text-align: center;
+     text-decoration: overline;
+     border-top-style: outset;
+     border-bottom-style: dashed;
+
+   }
+
+  </style>
+</head>
+
+<body>
+ <h1>This is heading.</h1>
+ <p class="two">This is paragraph.</p>
+ <p class="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor maiores vel ducimus nulla dolorum ratione perspiciatis nihil molestiae ullam tenetur. Consectetur sint ex dolores repellendus modi provident eum nesciunt ipsum libero reiciendis commodi officiis possimus similique vel itaque dolore impedit officia! Architecto consequatur doloribus error quasi fugiat aliquid similique minus.</p>
+ <p class="three"> This is some text. This is some text. This is some text.
+  This is some text. This is some text. This is some text.
+  This is some text. This is some text. This is some text.
+  This is some text. This is some text. This is some text.
+ </p>
+ <p class="four">This is another paragraph</p>
+ <p class="five">This is another paragraph</p>
+
+</body>
+
+</html>
