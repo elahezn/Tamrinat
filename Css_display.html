@@ -1,0 +1,64 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+  <title></title>
+  <style type="text/css">
+    span{
+      display: block;
+    }
+    li{
+      display: inline;
+      background-color: #FF00FF;
+      border-radius:100px;
+
+    }
+    table,td{
+      border: 1px solid black;
+    }
+    tr.one{
+      visibility: collapse;
+      /*use collapse just for table*/
+
+    }
+    td{
+      position: relative;
+      top: -20px;
+    }
+    p.two{
+      visibility: hidden;
+    }
+    p.three{
+      display: none;
+    }
+
+  </style>
+</head>
+
+<body>
+ <span>This a paragraph.</span>
+ <span>This is another paragraph.</span>
+ <ul>
+  <li>cofee</li>
+  <li>tea</li>
+  <li>water</li>
+  <li>fruit</li>
+ </ul>
+ <table>
+  <tr class="one">
+   <td>A</td>
+   <td>b</td>
+  </tr>
+  <tr>
+   <td>C</td>
+   <td>D</td>
+  </tr>
+ </table>
+ <p>this is paragraph</p>
+ <p class="three">this is paragraph</p>
+ <p class="two">this is paragraph</p>
+ <p>this is paragraph</p>
+</body>
+
+</html>
