@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title></title>
+  <style type="text/css">
+  div.one{
+    position: fixed;
+    background-color: red;
+    width:100px;
+    height: 50px;
+    overflow: scroll;
+    cursor: pointer;
+  }
+  div.two{
+    position: relative;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 200px;
+    z-index: 2;
+    cursor: crosshair;
+  }
+  div.three{
+    position: absolute;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    top:300px;
+    left:200px;
+    z-index: 1;
+
+  }
+  div.four{
+    position: relative;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    top:200px;
+    left: 200px;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div class="one">this is div1.this is div1.this is div1this is div1this is div1this is div1</div>
+  <div class="two">this is div2</div>
+  <div class="three">this is div3</div>
+  <div class="four">this is div3</div>
+
+
+</body>
+
+</html>
