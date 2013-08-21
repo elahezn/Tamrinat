@@ -1,0 +1,134 @@
+<!DOCTYPE >
+
+<html>
+
+<head>
+  <title></title>
+  <style type="text/css">
+   table.tab{
+     border-style:solid;
+     border-collapse: separate;
+     width: 500px;
+     height:50px;
+     border-color: green;
+   }
+   .tab td{
+     color: #FFFFFF;
+     padding: 10px;
+     text-align: center;
+     font-weight: bolder;
+     background-color: #000000;
+     font-size: 20px;
+     border-style: solid;
+     border-color: #FF0000;
+     border-right-color:blue;
+   }
+   th{
+     color: #006600;
+     background-color: #99FF66;
+     border-left:3px dashed #9900CC;
+   }
+
+   #tab1{
+     width: 400px;
+     height: 350px;
+     border-style:dotted;
+     border-color: #990066;
+     border-collapse:collapse;
+   }
+   .test4{
+     color: #0000CC;
+     background-color: #99FF99;
+     border-style:double;
+     border-color: #FF0066;
+   }
+   tr.test{
+     border: 4px solid green;
+   }
+   .test1{
+     color: #003300;
+     background-color: #FFFF00;
+     font-size:x-large ;
+     border-style: groove;
+     border-color: #FF0000;
+     text-align:center;
+     text-decoration: overline;
+     border-right-color:#660099;
+     border-bottom-color: #009999;
+     border-bottom-style: double;
+   }
+   #test2{
+     border-style: dashed;
+   }
+   .test5{
+     background-color: #FF6600;
+     font-weight: bold;
+     font-size: large;
+     border-style: dotted;
+     padding-left: 15px;
+     padding-bottom: 30px;
+   }
+   .test5:hover{
+     background-color: #FFCC00;
+     text-decoration: line-through;
+   }
+
+  </style>
+</head>
+
+<body>
+ <table class="tab">
+   <thead id="tab3">
+    <tr>
+     <th ><h2>Country</h2></th>
+     <th colspan="3"><h2>City</h2></th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+       <td>France</td>
+       <td>Mashhad</td>
+       <td colspan="2">Tehran</td>
+    </tr>
+    <tr>
+       <td>Australia</td>
+       <td>Isfahan</td>
+       <td colspan="2">Tabriz</td>
+    </tr>
+    <tr>
+       <td>A</td>
+       <td>B</td>
+       <td>C</td>
+       <td>D</td>
+    </tr>
+   </tbody>
+ </table>
+ <hr/>
+ <table id="tab1">
+   <thead>
+       <tr>
+        <th class="test4">Number</th>
+        <th class="test4">Number</th>
+        <th class="test4">Number</th>
+        <th class="test4">Number</th>
+       </tr>
+
+   </thead>
+   <tbody >
+       <tr>
+        <td class="test1">One</td>
+        <td class="test1">Two</td>
+        <td class="test1">Three</td>
+        <td class="test1">Four</td>
+       </tr>
+       <tr id="test2">
+        <td class="test5">Five</td>
+        <td class="test5">Six</td>
+        <td class="test5">Seven</td>
+        <td class="test5">Eight</td>
+       </tr>
+   </tbody>
+ </table>
+</body>
+
+</html>
