@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8 "/>
+ <title>JS Bin</title>
+ <style type="text/css">
+  div.one{
+  background-color:red;
+  width:200px;
+  height:100px;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  }
+  div.two{
+  background-color: #FFFF00;
+  width:150px;
+  height:150px;
+  margin-top:30px;
+  margin-left:20px;
+  border-radius:100px;
+  box-shadow:0px 0px 20px 20px #FFC6E2;
+  -moz-box-shadow:0px 0px 20px 20px #FFC6E2;
+  -webkit-transition:1500ms;
+  }
+  div.two:hover{
+  box-shadow:0px 0px 20px 20px #99CCFF;
+  }
+  div.three{
+  border-image:url('border.png') 30 30 round;
+  width:200px;
+  -webkit-border-image:url('border.png') 30 30 round;
+  -o-border-image:url(border.png) 30 30 round; 
+  -moz-border-image:url(border.png) 30 30 round; 
+  }
+  div.four{
+  width:200px;
+  height:30px;
+  border-image:url('border.png') 30 30 stretch;
+  width:200px;
+  -webkit-border-image:url('border.png') 30 30 stretch;
+  -o-border-image:url(border.png) 30 30 stretch; 
+  -moz-border-image:url(border.png) 30 30 stretch; 
+  }
+ </style> 
+  
+  </head>
+<body>
+  <div class="one">this is border radius</div>
+  <div class="two">this is box shadow</div>
+  <div class="three"> this is border image with round</div>
+  <div class="four">this is border image with stretch</div>
+</body>
+</html>
