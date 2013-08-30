@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>JS Bin</title>
+  <style type="text/css">
+     *{
+     	margin: 0;
+     	padding: 0;
+     }
+     body{
+     	background-color: #66A3A3;
+     }
+     header{
+     	padding: 18px 20px;
+     }
+     nav.menu menu{
+     	list-style-type: none;
+     }
+     .menu menu li{
+      float: left;
+      background-color: #EBEBEB;
+      border-right: 1px solid white;
+      position: relative;
+     }
+     .menu li a{
+     	text-transform: capitalize;
+     	text-decoration: none;
+     	font-family: serif;
+     	font-size: 17px;
+     	font-weight: bold;
+     	color: #40403A;
+     	display: block;
+     	padding: 12px 24px;
+     	white-space: nowrap;
+     }
+     .badgirl{
+     	width: 0;
+     	height: 0;
+     	clear: both;
+     }
+     .menu li li{
+       float: none;
+       border-top: 1px solid white;
+       border-right: none;
+     }
+     .menu li menu{
+     	display: none;
+     	position: absolute;
+     	top: 100%;
+     	left: 0;
+     	min-width: 100%
+     }
+     .menu li:hover menu{
+     	display: block;
+     }
+     nav.menu li li a{
+        padding: 7px 40px;
+        color: #656565;
+        font-size: 14px;
+     }
+     nav.menu li menu li:hover >a{
+     	  color : white;
+        background-color: #CF0053;
+        border-radius:1px;
+        box-shadow:0px 13px 5px 0px #EE4D8D inset ;  
+     }
+     nav.menu menu li:hover >a{
+     	color: #006666;
+     }
+    
+
+  </style>
+</head>
+<body>
+  <header>
+     <nav class="menu">
+        <menu>
+            <li><a href="">home</a></li>
+            <li><a href="">profile</a></li>
+            <li><a href="">gallary</a></li>
+            <li>
+               <a href="">about us</a>
+               <menu>
+                   <li><a href="">gallary one</a></li>
+                   <li><a href="">gallary two</a></li>
+                   <li><a href="">gallary three</a></li>
+                   <li><a href="">gallary four</a></li>
+               </menu>
+               <div class="badgirl"></div>
+            </li>
+            <li><a href="">contact us</a></li>
+        </menu>
+        <div class="badgirl"></div>
+     </nav>
+  </header>
+</body>
+</html>
