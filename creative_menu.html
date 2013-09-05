@@ -1,0 +1,120 @@
+ <!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Creative Menu Sample</title>
+	<style type="text/css">
+		*{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-image: url('images/bg.jpg');    
+    }
+    .badgirl{
+      width: 0;
+      height: 0;
+      clear: both;
+    }
+    nav.top{
+      margin-top: 35px;
+      margin-left: 150px;
+    }
+    nav.top menu{
+      list-style-type: none;
+    }
+    nav.top li{
+      float: left;
+      position: relative;
+      margin-left: 20px;
+      background-color: #00ACEE;
+      -webkit-transition:top 200ms ;
+    }
+    nav.top a{
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      display: block;
+      padding:50px 7px 6px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-family: "Courier New", Courier, monospace;
+      letter-spacing: -1px;
+    }
+    a:after{
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 10px solid #00ACEE;
+      border-left: 9px solid transparent;
+      border-right: 5px solid transparent;
+      position: absolute;
+      display: block;
+      top: 100%;
+      left: 10px;
+    }
+    nav.top li:hover{
+      top:4px;
+      text-shadow: 0px 0px 1px #FF9
+    }
+    .right{
+      position: absolute;
+      left: 100%;
+      border-top: 85px solid #00ACEE;
+      border-left: 0px solid transparent;
+      border-right: 4px solid transparent;
+      border-bottom: 0px solid transparent;
+      top:0px;
+    }
+    .left{
+      position: absolute;
+      right: 100%;
+      border-top: 84px solid #00ACEE;
+      border-left: 3px solid transparent;
+      border-right: 0px solid transparent;
+      border-bottom: 0px solid transparent;
+      top:0px;
+    }
+	</style>
+</head>
+<body>
+  <header class="main">
+   <nav class="top">
+     <menu>
+     	<li>
+        <a href="">info?
+         <span class="left"></span> 
+         <span class="right"></span> 
+        </a>
+      </li>
+     	<li>
+        <a href="">products*
+          <span class="left"></span> 
+          <span class="right"></span> 
+        </a>
+      </li>
+     	<li>
+        <a href="">works°
+           <span class="left"></span> 
+           <span class="right"></span> 
+        </a>
+      </li>
+     	<li>
+        <a href="">login!
+          <span class="left"></span> 
+          <span class="right"></span> 
+        </a>
+      </li>
+     	<li>
+        <a href="">contact❜
+          <span class="left"></span> 
+          <span class="right"></span> 
+        </a>
+      </li>
+     </menu>
+     <div class="badgirl"></div>
+   </nav>
+  </header>
+					
+</body>
+</html>
