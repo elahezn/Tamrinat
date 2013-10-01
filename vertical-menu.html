@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head lag="en-US">
+ <meta charset="utf-8" />
+ <title>vertical menu</title>
+ <style type="text/css">
+  *{
+    padding:0;
+    margin:0;
+   }
+ 
+ nav{
+  max-width:130px; 
+  margin-left:50px;
+  margin-top: 30px;
+ }
+ nav menu{
+  list-style-type:none;
+ }
+ nav menu li{
+  background-color:#993366;
+  margin-top:1px;
+  position:relative;
+ }
+ menu li a{
+  color:#FFFF00;
+  text-decoration:none;
+  padding:7px 14px;
+  font-size:17px;
+  white-space:nowrap;
+  display:block;
+  text-transform:capitalize;
+  font-family : "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  position:relative;  
+ }
+ .badgirl{
+  width:0;
+  height:0;
+  clear:both;
+ }
+ nav li menu{
+  left:100%;
+  position:absolute;
+  padding-left:1px;
+  top:50px;
+  opacity:0; 
+  pointer-events:none;
+ }
+ nav  li:hover > menu{
+  opacity:1;
+  top:0;
+  pointer-events:auto;
+ }
+ nav menu >li > div:hover a{
+  -webkit-animation:move 600ms;
+  color:white;
+  background-color:#B82E8A;
+   -webkit-transition:color 500ms linear  ,background-color 100ms linear 500ms;
+ }
+ menu li li {
+  float:none;
+ }
+
+ @-webkit-keyframes move{
+ 30%{
+  top:70px;
+  } 
+ }
+ menu li div{
+  overflow:hidden;
+ }
+
+ </style>
+</head>
+<body>
+  <nav>
+    <menu>
+      <li>
+        <div><a href="#">home</a></div>
+      </li>
+      <li>
+        <div><a href="#">gallary</a></div>
+      </li>
+      <li>
+        <div><a href="#">about us</a></div>
+        <menu>
+          <li>
+            <div><a href="#">meet us</a></div>
+          </li>
+          <li>
+            <div><a href="#">greet us</a></div>
+          </li>
+          <li>
+            <div><a href="#">visit us</a></div>
+            <menu>
+          <li>
+            <div><a href="#">meet us</a></div>
+          </li>
+          <li>
+            <div><a href="#">greet us</a></div>
+          </li>
+          <li>
+            <div><a href="#">visit us</a></div>
+            <menu>
+          <li>
+            <div><a href="#">meet us</a></div>
+          </li>
+          <li>
+            <div><a href="#">greet us</a></div>
+          </li>
+          <li>
+            <div><a href="#">visit us</a></div>
+          </li>
+          <li>
+            <div><a href="#">see us</a></div>
+          </li>
+        </menu>
+        <div class="badgirl"></div>
+          </li>
+          <li>
+            <div><a href="#">see us</a></div>
+          </li>
+        </menu>
+          </li>
+          <li>
+            <div><a href="#">see us</a></div>
+          </li>
+        </menu>
+        <div class="badgirl"></div>
+      </li>
+      <li>
+        <div><a href="#">contact us</a></div>
+      </li>
+    </menu>
+    <div class="badgirl"></div>
+  </nav>
+</body>
+</html>
